@@ -41,9 +41,9 @@ ALLOWED_HOSTS = ['joblink-app-c9b1ba4e0b1c.herokuapp.com',
                  'localhost', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
-    'joblink.vercel.app',
-    'localhost:3000',
-    '127.0.0.1:3000'
+    'https://joblink.vercel.app',
+    'https://localhost:3000',
+    'https://127.0.0.1:3000'
 ]
 
 
