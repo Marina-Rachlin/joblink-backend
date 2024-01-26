@@ -1,1 +1,1 @@
-web: gunicorn joblinkbackend.wsgi
+web: gunicorn joblinkbackend.wsgi --log-file -
