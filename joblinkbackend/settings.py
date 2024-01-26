@@ -37,7 +37,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['joblink-app-71840ed09aec.herokuapp.com',
+ALLOWED_HOSTS = ['https://joblink-app-c9b1ba4e0b1c.herokuapp.com',
                  'localhost', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
