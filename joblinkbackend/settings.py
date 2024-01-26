@@ -37,13 +37,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['https://joblink-app-c9b1ba4e0b1c.herokuapp.com',
+ALLOWED_HOSTS = ['joblink-app-c9b1ba4e0b1c.herokuapp.com',
                  'localhost', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
-    'https://joblink.vercel.app',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000'
+    'joblink.vercel.app',
+    'localhost:3000',
+    '127.0.0.1:3000'
 ]
 
 
